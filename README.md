@@ -18,15 +18,14 @@ The implementation consists of three files:
 
 ## How to Compile and Run
 
-1. Save the three files as `driver.cpp`, `Shop.h`, and `Shop.cpp` in the same directory.
-2. Open a terminal or command prompt, navigate to the directory containing the files.
-3. Compile the files using the following command:
+1. Open a terminal or command prompt, navigate to the directory containing the files.
+2. Compile the files using the following command:
 
 ` g++ -o barber_shop driver.cpp Shop.cpp -lpthread`
 
 This command compiles `driver.cpp` and `Shop.cpp` into an executable named `barber_shop` and links the pthread library, which is required for multithreading.
 
-4. Run the compiled program with the required command-line arguments: the number of barbers, the number of chairs, the number of customers, and the service time (in microseconds). For example:
+3. Run the compiled program with the required command-line arguments: the number of barbers, the number of chairs, the number of customers, and the service time (in microseconds). For example:
 
 `./barber_shop 2 3 10 500000`
 
